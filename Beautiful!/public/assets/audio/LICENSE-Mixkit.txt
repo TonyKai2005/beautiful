@@ -1,0 +1,14 @@
+Track: Deep Techno Ambience
+Artist: Alejandro Magana (A. M.)
+Duration: 2:03
+Source collection: https://mixkit.co/free-stock-music/techno/
+Source asset: https://assets.mixkit.co/music/134/134.mp3
+License: Mixkit Stock Music Free License
+License page: https://mixkit.co/license/
+
+Mixkit states that its Free Stock Music may be used on websites and that
+attribution is not required. This file is retained with the local asset so the
+source and usage terms remain auditable.
+
+Downloaded for the e Gain Technologies Ltd. cinematic website on 2026-07-17.
+SHA-256: b873f8373c4d1cf134f358105ff5914e601d60dd518a7a5c0ad04398f47c0fad

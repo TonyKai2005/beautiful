@@ -1,0 +1,1 @@
+ALTER TABLE "leads" ADD COLUMN "merged_into_lead_id" text;

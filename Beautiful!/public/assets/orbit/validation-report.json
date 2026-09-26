@@ -1,0 +1,498 @@
+{
+  "pass": true,
+  "result": "Blender asset approval: passed",
+  "generatedAt": "2026-07-18T13:35:40.563Z",
+  "checks": 1065,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "assets": {
+      "star": {
+        "ultra": {
+          "bytes": 2182508,
+          "nodes": 192,
+          "meshes": 183,
+          "triangles": 29948,
+          "animations": [
+            {
+              "name": "SIGNATURE_REACTOR_SUN_7S",
+              "seconds": 7
+            }
+          ],
+          "images": 5,
+          "textures": 14,
+          "normalMaterials": 7,
+          "metallicRoughnessMaterials": 7
+        },
+        "balanced": {
+          "bytes": 1154788,
+          "nodes": 72,
+          "meshes": 65,
+          "triangles": 10936,
+          "animations": [
+            {
+              "name": "SIGNATURE_STAR_BALANCED_7S",
+              "seconds": 7
+            }
+          ],
+          "images": 3,
+          "textures": 12,
+          "normalMaterials": 6,
+          "metallicRoughnessMaterials": 6
+        }
+      },
+      "transform": {
+        "ultra": {
+          "bytes": 3439856,
+          "nodes": 371,
+          "meshes": 359,
+          "triangles": 54660,
+          "animations": [
+            {
+              "name": "SIGNATURE_TRANSFORM_LEGACY_7S",
+              "seconds": 7
+            },
+            {
+              "name": "SIGNATURE_TRANSFORM_FUTURE_7S",
+              "seconds": 7
+            }
+          ],
+          "images": 3,
+          "textures": 24,
+          "normalMaterials": 12,
+          "metallicRoughnessMaterials": 12
+        },
+        "balanced": {
+          "bytes": 1331440,
+          "nodes": 91,
+          "meshes": 83,
+          "triangles": 14732,
+          "animations": [
+            {
+              "name": "SIGNATURE_TRANSFORM_BALANCED_7S",
+              "seconds": 7
+            }
+          ],
+          "images": 3,
+          "textures": 20,
+          "normalMaterials": 10,
+          "metallicRoughnessMaterials": 10
+        }
+      },
+      "build": {
+        "ultra": {
+          "bytes": 1646584,
+          "nodes": 157,
+          "meshes": 142,
+          "triangles": 12408,
+          "animations": [
+            {
+              "name": "SIGNATURE_BUILD_ASSEMBLY_7S",
+              "seconds": 7
+            }
+          ],
+          "images": 3,
+          "textures": 18,
+          "normalMaterials": 9,
+          "metallicRoughnessMaterials": 9
+        },
+        "balanced": {
+          "bytes": 980624,
+          "nodes": 53,
+          "meshes": 45,
+          "triangles": 3016,
+          "animations": [
+            {
+              "name": "SIGNATURE_BUILD_BALANCED_7S",
+              "seconds": 7
+            }
+          ],
+          "images": 3,
+          "textures": 14,
+          "normalMaterials": 7,
+          "metallicRoughnessMaterials": 7
+        }
+      },
+      "experience": {
+        "ultra": {
+          "bytes": 2229284,
+          "nodes": 137,
+          "meshes": 119,
+          "triangles": 22356,
+          "animations": [
+            {
+              "name": "SIGNATURE_EXPERIENCE_APERTURE_7S",
+              "seconds": 7
+            },
+            {
+              "name": "SIGNATURE_EXPERIENCE_IRIS_00_7S",
+              "seconds": 7
+            },
+            {
+              "name": "SIGNATURE_EXPERIENCE_IRIS_01_7S",
+              "seconds": 7
+            },
+            {
+              "name": "SIGNATURE_EXPERIENCE_IRIS_02_7S",
+              "seconds": 7
+            },
+            {
+              "name": "SIGNATURE_EXPERIENCE_IRIS_03_7S",
+              "seconds": 7
+            },
+            {
+              "name": "SIGNATURE_EXPERIENCE_IRIS_04_7S",
+              "seconds": 7
+            },
+            {
+              "name": "SIGNATURE_EXPERIENCE_IRIS_05_7S",
+              "seconds": 7
+            },
+            {
+              "name": "SIGNATURE_EXPERIENCE_IRIS_06_7S",
+              "seconds": 7
+            }
+          ],
+          "images": 5,
+          "textures": 16,
+          "normalMaterials": 8,
+          "metallicRoughnessMaterials": 8
+        },
+        "balanced": {
+          "bytes": 1324284,
+          "nodes": 46,
+          "meshes": 32,
+          "triangles": 6924,
+          "animations": [
+            {
+              "name": "SIGNATURE_EXPERIENCE_BALANCED_7S",
+              "seconds": 7
+            },
+            {
+              "name": "SIGNATURE_EXPERIENCE_MID_IRIS_00_7S",
+              "seconds": 7
+            },
+            {
+              "name": "SIGNATURE_EXPERIENCE_MID_IRIS_01_7S",
+              "seconds": 7
+            },
+            {
+              "name": "SIGNATURE_EXPERIENCE_MID_IRIS_02_7S",
+              "seconds": 7
+            },
+            {
+              "name": "SIGNATURE_EXPERIENCE_MID_IRIS_03_7S",
+              "seconds": 7
+            },
+            {
+              "name": "SIGNATURE_EXPERIENCE_MID_IRIS_04_7S",
+              "seconds": 7
+            },
+            {
+              "name": "SIGNATURE_EXPERIENCE_MID_IRIS_05_7S",
+              "seconds": 7
+            }
+          ],
+          "images": 5,
+          "textures": 12,
+          "normalMaterials": 6,
+          "metallicRoughnessMaterials": 6
+        }
+      },
+      "test": {
+        "ultra": {
+          "bytes": 3081236,
+          "nodes": 311,
+          "meshes": 299,
+          "triangles": 51772,
+          "animations": [
+            {
+              "name": "SIGNATURE_TEST_SCAN_7S",
+              "seconds": 7
+            },
+            {
+              "name": "SIGNATURE_TEST_SHELL_7S",
+              "seconds": 7
+            }
+          ],
+          "images": 3,
+          "textures": 20,
+          "normalMaterials": 10,
+          "metallicRoughnessMaterials": 10
+        },
+        "balanced": {
+          "bytes": 1296568,
+          "nodes": 90,
+          "meshes": 82,
+          "triangles": 14056,
+          "animations": [
+            {
+              "name": "SIGNATURE_TEST_BALANCED_7S",
+              "seconds": 7
+            }
+          ],
+          "images": 3,
+          "textures": 16,
+          "normalMaterials": 8,
+          "metallicRoughnessMaterials": 8
+        }
+      },
+      "deploy": {
+        "ultra": {
+          "bytes": 3899568,
+          "nodes": 444,
+          "meshes": 435,
+          "triangles": 58104,
+          "animations": [
+            {
+              "name": "SIGNATURE_DEPLOY_DOCKS_7S",
+              "seconds": 7
+            }
+          ],
+          "images": 3,
+          "textures": 18,
+          "normalMaterials": 9,
+          "metallicRoughnessMaterials": 9
+        },
+        "balanced": {
+          "bytes": 1737300,
+          "nodes": 142,
+          "meshes": 135,
+          "triangles": 19800,
+          "animations": [
+            {
+              "name": "SIGNATURE_DEPLOY_BALANCED_7S",
+              "seconds": 7
+            }
+          ],
+          "images": 3,
+          "textures": 14,
+          "normalMaterials": 7,
+          "metallicRoughnessMaterials": 7
+        }
+      },
+      "protect": {
+        "ultra": {
+          "bytes": 2674740,
+          "nodes": 213,
+          "meshes": 201,
+          "triangles": 25092,
+          "animations": [
+            {
+              "name": "SIGNATURE_PROTECT_ECLIPSE_7S",
+              "seconds": 7
+            },
+            {
+              "name": "SIGNATURE_PROTECT_LOCK_JAW_E_7S",
+              "seconds": 7
+            },
+            {
+              "name": "SIGNATURE_PROTECT_LOCK_JAW_N_7S",
+              "seconds": 7
+            },
+            {
+              "name": "SIGNATURE_PROTECT_LOCK_JAW_S_7S",
+              "seconds": 7
+            },
+            {
+              "name": "SIGNATURE_PROTECT_LOCK_JAW_W_7S",
+              "seconds": 7
+            }
+          ],
+          "images": 5,
+          "textures": 18,
+          "normalMaterials": 9,
+          "metallicRoughnessMaterials": 9
+        },
+        "balanced": {
+          "bytes": 1600540,
+          "nodes": 75,
+          "meshes": 63,
+          "triangles": 10080,
+          "animations": [
+            {
+              "name": "SIGNATURE_PROTECT_BALANCED_7S",
+              "seconds": 7
+            },
+            {
+              "name": "SIGNATURE_PROTECT_MID_LOCK_JAW_E_7S",
+              "seconds": 7
+            },
+            {
+              "name": "SIGNATURE_PROTECT_MID_LOCK_JAW_N_7S",
+              "seconds": 7
+            },
+            {
+              "name": "SIGNATURE_PROTECT_MID_LOCK_JAW_S_7S",
+              "seconds": 7
+            },
+            {
+              "name": "SIGNATURE_PROTECT_MID_LOCK_JAW_W_7S",
+              "seconds": 7
+            }
+          ],
+          "images": 5,
+          "textures": 14,
+          "normalMaterials": 7,
+          "metallicRoughnessMaterials": 7
+        }
+      },
+      "operate": {
+        "ultra": {
+          "bytes": 2223380,
+          "nodes": 143,
+          "meshes": 133,
+          "triangles": 19580,
+          "animations": [
+            {
+              "name": "SIGNATURE_OPERATE_INFERENCE_7S",
+              "seconds": 7
+            },
+            {
+              "name": "SIGNATURE_OPERATE_GIMBAL_0_7S",
+              "seconds": 7
+            },
+            {
+              "name": "SIGNATURE_OPERATE_GIMBAL_1_7S",
+              "seconds": 7
+            },
+            {
+              "name": "SIGNATURE_OPERATE_GIMBAL_2_7S",
+              "seconds": 7
+            }
+          ],
+          "images": 5,
+          "textures": 14,
+          "normalMaterials": 7,
+          "metallicRoughnessMaterials": 7
+        },
+        "balanced": {
+          "bytes": 1654684,
+          "nodes": 91,
+          "meshes": 82,
+          "triangles": 10936,
+          "animations": [
+            {
+              "name": "SIGNATURE_OPERATE_BALANCED_7S",
+              "seconds": 7
+            },
+            {
+              "name": "SIGNATURE_OPERATE_MID_GIMBAL_0_7S",
+              "seconds": 7
+            },
+            {
+              "name": "SIGNATURE_OPERATE_MID_GIMBAL_1_7S",
+              "seconds": 7
+            },
+            {
+              "name": "SIGNATURE_OPERATE_MID_GIMBAL_2_7S",
+              "seconds": 7
+            }
+          ],
+          "images": 5,
+          "textures": 12,
+          "normalMaterials": 6,
+          "metallicRoughnessMaterials": 6
+        }
+      }
+    },
+    "renders": {
+      "star": {
+        "width": 4096,
+        "height": 2560,
+        "bytes": 7380931
+      },
+      "transform": {
+        "width": 4096,
+        "height": 2560,
+        "bytes": 7981711
+      },
+      "build": {
+        "width": 4096,
+        "height": 2560,
+        "bytes": 6676359
+      },
+      "experience": {
+        "width": 4096,
+        "height": 2560,
+        "bytes": 6737740
+      },
+      "test": {
+        "width": 4096,
+        "height": 2560,
+        "bytes": 7931276
+      },
+      "deploy": {
+        "width": 4096,
+        "height": 2560,
+        "bytes": 7874147
+      },
+      "protect": {
+        "width": 4096,
+        "height": 2560,
+        "bytes": 6858204
+      },
+      "operate": {
+        "width": 4096,
+        "height": 2560,
+        "bytes": 6839252
+      },
+      "system-overview": {
+        "width": 4096,
+        "height": 2560,
+        "bytes": 5515431
+      }
+    },
+    "textures": {
+      "machinedNormal": {
+        "width": 512,
+        "height": 512,
+        "bytes": 207590
+      },
+      "opticalNormal": {
+        "width": 512,
+        "height": 512,
+        "bytes": 40473
+      },
+      "metalOrm": {
+        "width": 512,
+        "height": 512,
+        "bytes": 260301
+      },
+      "dielectricOrm": {
+        "width": 512,
+        "height": 512,
+        "bytes": 269630
+      },
+      "opticalOrm": {
+        "width": 512,
+        "height": 512,
+        "bytes": 103738
+      }
+    },
+    "system": {
+      "ultra": {
+        "bytes": 16100248,
+        "nodes": 2008,
+        "meshes": 1909,
+        "triangles": 288224,
+        "animations": 24,
+        "images": 5,
+        "textures": 32,
+        "normalMaterials": 16,
+        "metallicRoughnessMaterials": 16
+      },
+      "balanced": {
+        "bytes": 5955740,
+        "nodes": 700,
+        "meshes": 625,
+        "triangles": 104784,
+        "animations": 21,
+        "images": 5,
+        "textures": 28,
+        "normalMaterials": 14,
+        "metallicRoughnessMaterials": 14
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "e-gain",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k -n WEB,API -c cyan,magenta \"npm:dev:web\" \"npm:dev:server\"",
+    "dev:web": "vite --port 4174",
+    "dev:server": "tsx watch server/index.ts",
+    "server:start": "tsx server/index.ts",
+    "build": "npm run typecheck && vite build",
+    "typecheck": "tsc -p tsconfig.json && tsc -p server/tsconfig.json",
+    "test": "tsx --test --test-concurrency=1 server/tests/*.test.ts",
+    "db:generate": "drizzle-kit generate --config server/drizzle.config.ts",
+    "db:migrate": "tsx server/scripts/migrate.ts",
+    "font:spatial": "node tools/generate_spatial_title_font.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "^0.3.11",
+    "@fastify/cookie": "^11.0.2",
+    "@fastify/rate-limit": "^10.3.0",
+    "@fontsource/barlow-condensed": "^5.2.6",
+    "@fontsource/manrope": "^5.2.6",
+    "@phosphor-icons/webcomponents": "^2.1.5",
+    "argon2": "^0.44.0",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.44.7",
+    "fastify": "^5.6.2",
+    "gsap": "^3.13.0",
+    "nodemailer": "^7.0.10",
+    "pg": "^8.16.3",
+    "three": "^0.185.0",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/nodemailer": "^7.0.3",
+    "@types/pg": "^8.15.6",
+    "@types/three": "^0.185.0",
+    "concurrently": "^9.2.1",
+    "drizzle-kit": "^0.31.7",
+    "msdf-bmfont-xml": "^2.8.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.8.3",
+    "vite": "6.4.2"
+  }
+}

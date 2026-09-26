@@ -1,0 +1,305 @@
+{
+  "version": "1.0.0",
+  "generatedBy": "tools/generate_project_orbit.py / Blender 5.1",
+  "coordinateConvention": "glTF Y-up",
+  "lodPolicy": {
+    "ultra": "WEB_LOD0, focused desktop presentation",
+    "balanced": "WEB_LOD1, unfocused/mobile presentation",
+    "masterOnly": "WEB_LOD2 is retained in the Blender source for distant authoring reference"
+  },
+  "textureLibrary": {
+    "resolution": 512,
+    "packing": "PNG, embedded into GLB; ORM uses R=AO G=roughness B=metalness",
+    "tileable": true,
+    "images": {
+      "machinedNormal": {
+        "url": "/assets/orbit/textures/orbit-machined-normal.png",
+        "bytes": 207590,
+        "sha256": "791ce146f295a9f310d32eb4512a76bcc630d990ea0d1ace0b49014e245d39d6"
+      },
+      "opticalNormal": {
+        "url": "/assets/orbit/textures/orbit-optical-normal.png",
+        "bytes": 40473,
+        "sha256": "5cc5cfe4be06fa4a806671b4c698572fedd2a540ff514d5215d4ec595c60692b"
+      },
+      "metalOrm": {
+        "url": "/assets/orbit/textures/orbit-metal-orm.png",
+        "bytes": 260301,
+        "sha256": "5f38d9cec6a955d055404c817010c533a5d8dddfdb0ab04387cfbb2a06c1a05d"
+      },
+      "dielectricOrm": {
+        "url": "/assets/orbit/textures/orbit-dielectric-orm.png",
+        "bytes": 269630,
+        "sha256": "2c357a025c8d9cca07d215de4f9a1a6b12bf813f9d4283022f85a7b303c2c538"
+      },
+      "opticalOrm": {
+        "url": "/assets/orbit/textures/orbit-optical-orm.png",
+        "bytes": 103738,
+        "sha256": "76c4abd4c7fa15d39d780de2d2b7f6520cf521a8191a8f9f2af19a20684f0f86"
+      }
+    }
+  },
+  "system": {
+    "root": "OrbitSystem_ROOT",
+    "ultra": {
+      "url": "/assets/orbit/models/orbit-system-ultra.glb",
+      "bytes": 16100248,
+      "sha256": "2778cf590b7f74a16b53e359de930b79cf649044ee93620f24abd1fb96693042"
+    },
+    "balanced": {
+      "url": "/assets/orbit/models/orbit-system-balanced.glb",
+      "bytes": 5955740,
+      "sha256": "891879e642a277526d018113a1909fc310da706681e8cdf366cf688c2d504775"
+    },
+    "flythrough": {
+      "camera": "OrbitFlythroughCamera",
+      "action": "PROJECT_ORBIT_FLYTHROUGH_60S",
+      "durationSeconds": 60,
+      "location": "Blender master"
+    }
+  },
+  "star": {
+    "id": "star",
+    "root": "ReactorSun_ROOT",
+    "ultra": {
+      "url": "/assets/orbit/models/orbit-star-ultra.glb",
+      "bytes": 2182508,
+      "sha256": "5a49bd522f1ba8c8906bd26c79f40277ce25e7591b0a56cfce0002adfa2bfd0b"
+    },
+    "balanced": {
+      "url": "/assets/orbit/models/orbit-star-balanced.glb",
+      "bytes": 1154788,
+      "sha256": "1c163c5b57d163dfde9f3bb5c0bfdec9521da07d9f31dda7eee7c02a27fed9d0"
+    },
+    "hero": {
+      "url": "/assets/orbit/renders/star-hero.png",
+      "bytes": 7380931,
+      "sha256": "4bd98234533cb619ec8b16d995cdc713bf832ca3a4f5a9c41e0bb2ba6472eb46",
+      "width": 4096,
+      "height": 2560,
+      "renderer": "Eevee Next",
+      "viewTransform": "AgX - Medium High Contrast"
+    }
+  },
+  "planets": [
+    {
+      "id": "transform",
+      "code": "TRANSFORM",
+      "service": "Business Transformation",
+      "root": "Planet_transform_ROOT",
+      "ultra": {
+        "url": "/assets/orbit/models/orbit-transform-ultra.glb",
+        "bytes": 3439856,
+        "sha256": "19e67bcfd3911d8319b803e23974b39d8a5f6fc2e033936495b9e9e12bcd01ff"
+      },
+      "balanced": {
+        "url": "/assets/orbit/models/orbit-transform-balanced.glb",
+        "bytes": 1331440,
+        "sha256": "829606588aa608cbfb97dd227380ab369159446b0a007c21b4c8678134e7951d"
+      },
+      "hero": {
+        "url": "/assets/orbit/renders/transform-hero.png",
+        "bytes": 7981711,
+        "sha256": "48303a943a4c508839c8bca59cced2eb34c1eacf67579f1a1caf05f57c27d883",
+        "width": 4096,
+        "height": 2560,
+        "renderer": "Eevee Next",
+        "viewTransform": "AgX - Medium High Contrast"
+      },
+      "signatureAction": "Conversion fault reconfigures legacy and modular hemispheres",
+      "actionDurationSeconds": 7.0,
+      "orbitRadius": 19.0,
+      "orbitAngleDegrees": 145.0
+    },
+    {
+      "id": "build",
+      "code": "BUILD",
+      "service": "Application Engineering",
+      "root": "Planet_build_ROOT",
+      "ultra": {
+        "url": "/assets/orbit/models/orbit-build-ultra.glb",
+        "bytes": 1646584,
+        "sha256": "6487045dd460394d242cb2bda17dbb825040bdb9a4679afe3849cafdaf0af295"
+      },
+      "balanced": {
+        "url": "/assets/orbit/models/orbit-build-balanced.glb",
+        "bytes": 980624,
+        "sha256": "d7d85a7340ded84fb6f9c6ebfb5152dbf831fc659d587a248353657556f23ddd"
+      },
+      "hero": {
+        "url": "/assets/orbit/renders/build-hero.png",
+        "bytes": 6676359,
+        "sha256": "b9b35135d1a918bda80908ac17a6163436ba062e4f629ca9bd24a267837a0172",
+        "width": 4096,
+        "height": 2560,
+        "renderer": "Eevee Next",
+        "viewTransform": "AgX - Medium High Contrast"
+      },
+      "signatureAction": "Foundry modules rise and lock into an engineered world",
+      "actionDurationSeconds": 7.0,
+      "orbitRadius": 21.0,
+      "orbitAngleDegrees": 105.0
+    },
+    {
+      "id": "experience",
+      "code": "EXPERIENCE",
+      "service": "Mobile & Digital Experience",
+      "root": "Planet_experience_ROOT",
+      "ultra": {
+        "url": "/assets/orbit/models/orbit-experience-ultra.glb",
+        "bytes": 2229284,
+        "sha256": "3e193900c4d4f97100dd59a96de795674354acf2fe9153383bf0ce412bce0716"
+      },
+      "balanced": {
+        "url": "/assets/orbit/models/orbit-experience-balanced.glb",
+        "bytes": 1324284,
+        "sha256": "e728e9f34e35a75265328f9adc851ba6e946cf7a56540d1033d86126bcb69010"
+      },
+      "hero": {
+        "url": "/assets/orbit/renders/experience-hero.png",
+        "bytes": 6737740,
+        "sha256": "2145afcd6f836eab177020991904f83263d53df128d07d8c5425dca4c5f85b84",
+        "width": 4096,
+        "height": 2560,
+        "renderer": "Eevee Next",
+        "viewTransform": "AgX - Medium High Contrast"
+      },
+      "signatureAction": "Adaptive lens and iris alter the planet aperture",
+      "actionDurationSeconds": 7.0,
+      "orbitRadius": 22.0,
+      "orbitAngleDegrees": 65.0
+    },
+    {
+      "id": "test",
+      "code": "TEST",
+      "service": "Quality Engineering & Validation",
+      "root": "Planet_test_ROOT",
+      "ultra": {
+        "url": "/assets/orbit/models/orbit-test-ultra.glb",
+        "bytes": 3081236,
+        "sha256": "962cb6f0de515e0f51521f9cc14ce8043d1702b3f980efab1b837498d7cc8f3c"
+      },
+      "balanced": {
+        "url": "/assets/orbit/models/orbit-test-balanced.glb",
+        "bytes": 1296568,
+        "sha256": "7d409aa3af2a1bcfc58632a6509fba5ac5361a6719da23a39cfee2ca5585c9a0"
+      },
+      "hero": {
+        "url": "/assets/orbit/renders/test-hero.png",
+        "bytes": 7931276,
+        "sha256": "3c1b6ef9b6d3d9e9090b1b9fbc049295451d07a5a80195584ed7340acc7a7a85",
+        "width": 4096,
+        "height": 2560,
+        "renderer": "Eevee Next",
+        "viewTransform": "AgX - Medium High Contrast"
+      },
+      "signatureAction": "Measurement shells separate while the scanner calibrates",
+      "actionDurationSeconds": 7.0,
+      "orbitRadius": 23.0,
+      "orbitAngleDegrees": 25.0
+    },
+    {
+      "id": "deploy",
+      "code": "DEPLOY",
+      "service": "Cloud & DevOps",
+      "root": "Planet_deploy_ROOT",
+      "ultra": {
+        "url": "/assets/orbit/models/orbit-deploy-ultra.glb",
+        "bytes": 3899568,
+        "sha256": "2076a76a9bf91491746a3357597a112bbb0d23c896671950dc28a8dbce3a2a3c"
+      },
+      "balanced": {
+        "url": "/assets/orbit/models/orbit-deploy-balanced.glb",
+        "bytes": 1737300,
+        "sha256": "1cc3f61b84f4870bbf32d1082c0c1da82dd044021b5ed9c4248d307ec1d4175b"
+      },
+      "hero": {
+        "url": "/assets/orbit/renders/deploy-hero.png",
+        "bytes": 7874147,
+        "sha256": "4c5b1ae0c2f6d4b0c813fa74cd61997935ad4bbcdad2c687aec0c91d84835a6b",
+        "width": 4096,
+        "height": 2560,
+        "renderer": "Eevee Next",
+        "viewTransform": "AgX - Medium High Contrast"
+      },
+      "signatureAction": "Equatorial deployment docks and container rails expand",
+      "actionDurationSeconds": 7.0,
+      "orbitRadius": 25.5,
+      "orbitAngleDegrees": -15.0
+    },
+    {
+      "id": "protect",
+      "code": "PROTECT",
+      "service": "Cybersecurity & Information Governance",
+      "root": "Planet_protect_ROOT",
+      "ultra": {
+        "url": "/assets/orbit/models/orbit-protect-ultra.glb",
+        "bytes": 2674740,
+        "sha256": "9c46d7bd41f212e8a8800206bc0b3eaaae4724874224267f2304ebdf4f39c98e"
+      },
+      "balanced": {
+        "url": "/assets/orbit/models/orbit-protect-balanced.glb",
+        "bytes": 1600540,
+        "sha256": "402565950aaf7ebf148edbe68ccfaa6d22f3be29236f56d9db5aec94453d9311"
+      },
+      "hero": {
+        "url": "/assets/orbit/renders/protect-hero.png",
+        "bytes": 6858204,
+        "sha256": "c8cfe4918ebbc063581197a270e6c3f058643b9acb16e7f347dcaf6bf48daaa1",
+        "width": 4096,
+        "height": 2560,
+        "renderer": "Eevee Next",
+        "viewTransform": "AgX - Medium High Contrast"
+      },
+      "signatureAction": "Governance shield petals close into a controlled eclipse",
+      "actionDurationSeconds": 7.0,
+      "orbitRadius": 22.5,
+      "orbitAngleDegrees": -60.0
+    },
+    {
+      "id": "operate",
+      "code": "OPERATE",
+      "service": "AI & Data",
+      "root": "Planet_operate_ROOT",
+      "ultra": {
+        "url": "/assets/orbit/models/orbit-operate-ultra.glb",
+        "bytes": 2223380,
+        "sha256": "9ebb46539b4f51b3eea587b69fdbc2e71440eb5ed9a26907100c6a5df7969bd1"
+      },
+      "balanced": {
+        "url": "/assets/orbit/models/orbit-operate-balanced.glb",
+        "bytes": 1654684,
+        "sha256": "c219869ec86371cf0bc6e70aa02e35eba32f1671e21a45b0dfb6721aac9bb468"
+      },
+      "hero": {
+        "url": "/assets/orbit/renders/operate-hero.png",
+        "bytes": 6839252,
+        "sha256": "2c7ec67e61c546fa9cb031ab37c6bf63ec4efffd9d615a74b1fbbb1ece909015",
+        "width": 4096,
+        "height": 2560,
+        "renderer": "Eevee Next",
+        "viewTransform": "AgX - Medium High Contrast"
+      },
+      "signatureAction": "Open inference lattice rotates through causal gimbals",
+      "actionDurationSeconds": 7.0,
+      "orbitRadius": 20.5,
+      "orbitAngleDegrees": -120.0
+    }
+  ],
+  "renders": {
+    "systemOverview": {
+      "url": "/assets/orbit/renders/system-overview.png",
+      "bytes": 5515431,
+      "sha256": "fe1bab81a10d8951bf9d511da1f7407261c09950b907cc0be43850c9f69e2402",
+      "width": 4096,
+      "height": 2560,
+      "renderer": "Eevee Next",
+      "viewTransform": "AgX - Medium High Contrast"
+    }
+  },
+  "blenderMaster": {
+    "url": "/assets/orbit/egain-project-orbit.blend",
+    "bytes": 2695077,
+    "sha256": "effaf3ad31bb7fd7c3c1b3f4e8cbf60a2219eb183336036872b0d68a164fe15f"
+  }
+}

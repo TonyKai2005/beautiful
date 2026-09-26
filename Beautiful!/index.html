@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#080808" />
+    <link rel="preload" href="/assets/renders/egain-boot-poster.webp" as="image" type="image/webp" fetchpriority="high" />
+    <meta
+      name="description"
+      content="e Gain Technologies Ltd. engineers applications, cloud platforms, intelligent systems and resilient digital infrastructure."
+    />
+    <title>e Gain Technologies Ltd. — We engineer what's next.</title>
+    <style>
+      html, body, #app { min-height: 100%; margin: 0; background: #070809; }
+      .preboot { position: fixed; inset: 0; overflow: hidden; color: #fff; font: 700 12px/1.2 system-ui, sans-serif; }
+      .preboot img { width: 100%; height: 100%; object-fit: cover; opacity: .34; filter: brightness(.58); }
+      .preboot span { position: absolute; left: 2.5vw; bottom: 2rem; letter-spacing: .12em; text-transform: uppercase; }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div class="preboot" aria-hidden="true">
+        <img src="/assets/renders/egain-boot-poster.webp" alt="" />
+        <span>e Gain Technologies Ltd. / Initialising environment</span>
+      </div>
+    </div>
+    <noscript>
+      <main class="noscript-message">
+        <h1>e Gain Technologies Ltd.</h1>
+        <p>We engineer applications, cloud platforms, intelligent systems and resilient digital infrastructure.</p>
+      </main>
+    </noscript>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
